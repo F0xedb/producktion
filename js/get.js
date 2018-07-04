@@ -30,11 +30,21 @@ function GetIndex(array,string){
     return -1;
 }
 
-var fill= document.getElementById("person");
-if(allowed.all || contains(allowed.people,GET["ref"])) {
-    fill.innerHTML = "Join " + allowed.text[GetIndex(allowed.people,GET["ref"])];
-    fill.href = "http://" + GET["ref"];
-} else{
-    fill.innerHTML = "Join Bart";
-    fill.href = "http://proost.futurenet.xyz";
+function travel(id){
+    var fill= document.getElementById(id);
+    if(allowed.all || contains(allowed.people,GET["ref"])) {
+        fill.innerHTML = "Join " + allowed.text[GetIndex(allowed.people,GET["ref"])];
+        fill.href = "http://" + GET["ref"];
+    } else{
+        fill.innerHTML = "Join Bart";
+        fill.href = "http://proost.futurenet.xyz";
+    }
 }
+
+
+function travelHome(){
+    var trav = document.getElementById("change");
+    trav.href = "index.html?ref=" + GET["ref"];
+}
+
+travel("person");
