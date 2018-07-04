@@ -6,19 +6,7 @@ if(empty($_POST['name'])      ||
    empty($_POST['message']))
    {
    echo "No arguments Provided!";
-   return "<!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <title>byebye</title>
-   </head>
-   <body>
-   <script>
-       window.location.href="index.html";
-   </script>
-   </body>
-   </html>
-   ";
+   return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>byebye</title></head><body><script>window.location.href="index.html";</script></body></html>';
    }
    
 $name = strip_tags(htmlspecialchars($_POST['name']));
@@ -33,17 +21,5 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
-return "<!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <title>byebye</title>
-        </head>
-        <body>
-        <script>
-            window.location.href="index.html";
-        </script>
-        </body>
-        </html>
-";
+return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>byebye</title></head><body><script>window.location.href="index.html";</script></body></html>';
 ?>
