@@ -6,35 +6,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-nav{
-    background-color: #0a3c78;
-    z-index:100099;
-    height: 7vh;
-}
-.head{
-    overflow: hidden;
-    position: fixed;
-    top:0;
-    width:100%;
-    z-index: 2;
-}
-a{
-    text-decoration: none;
-}
-
-nav div a{
-    text-decoration: none;
-    color:white;
-    padding: 10px;
-    margin-left: 20px;
-    border: 2px solid #aaa;
-    border-radius: 20px;
-    transition: 0.5s;
-}
-
-a:hover{
-    background-color: #224b91;
-}
 
 footer{
     background-color: #0a3c78;
