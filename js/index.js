@@ -21,3 +21,8 @@ function travelivan() {
 function travelLoc(location){
     window.location.href='https://' + location;
 }
+
+function loadlang(lang){
+    test = lang;
+    init();
+}
