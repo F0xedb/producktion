@@ -26,14 +26,43 @@
 <body id="page-top" onload="travelHome()">
 
 <!-- Navigation -->
-<header class="head">
-    <nav class="flex-containerhor">
-        <img src="img/futurenetlogo.svg" alt="futurenet" class="logo">
-        <div class="flex-containercenterhor flex-item-left">
-            <a href="" trans="index" id="change"></a>
-        </div>
-    </nav>
-</header>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="background-color: #0a3c78!important;">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <img src="img/futurenetlogo.svg" alt="futurenet" style="width:100px;">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" trans="home"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about" trans="about"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact" trans="contact"></a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Language
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" onclick="loadlang('en')">English</a>
+                    <a class="dropdown-item" href="#" onclick="loadlang('nl')">Nederlands</a>
+                    <a class="dropdown-item" href="#" onclick="loadlang('fr')">Francais</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 <!-- Header -->
 <div class="vid">
