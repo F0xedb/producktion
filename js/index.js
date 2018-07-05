@@ -26,3 +26,20 @@ function loadlang(lang){
     test = lang;
     init();
 }
+
+var bIsMuted = false;
+function mute(){
+    var vid = document.getElementById("myVideo");
+    if(bIsMuted){
+        showMute("mute");
+    }else{
+        showMute("unmute");
+    }
+    vid.muted = !bIsMuted;
+    bIsMuted = !bIsMuted;
+}
+
+function showMute(string) {
+    var el = document.getElementById("mute");
+    el.innerHTML = Lookup(string);
+}

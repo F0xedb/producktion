@@ -2,6 +2,8 @@
   "title": "Futurenet België",
   "index": "start",
   "subtitle": "Earning, giving and sharing",
+  "mute":"mute",
+  "unmute":"unmute",
   "home": "home",
   "about": "about",
   "contact": "contact",
