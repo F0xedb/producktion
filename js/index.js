@@ -43,3 +43,7 @@ function showMute(string) {
     var el = document.getElementById("mute");
     el.innerHTML = Lookup(string);
 }
+
+function travelpdf(){
+    window.location = "adpro_"+ test;
+}
