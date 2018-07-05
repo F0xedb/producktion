@@ -7,6 +7,7 @@
   "home": "home",
   "about": "about",
   "contact": "Contact",
+  "gallerylink": "gallery",
   "heading": "Futurenet Belgium",
   "promotion": "Promotion",
   "promotionreason": "U make money, we give to charity",
@@ -83,6 +84,12 @@
   "peoplesection1h2": "Matrix",
   "peoplesection2-1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut blanditiis commodi consequuntur debitis delectus dicta dolore fugit illo iure, nemo odio pariatur qui sapiente, sed voluptates. Eaque",
   "peoplesection1h3": "Big group",
-  "peoplesection3-1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut blanditiis commodi consequuntur debitis delectus dicta dolore fugit illo iure, nemo odio pariatur qui sapiente, sed voluptates. Eaque"
-
+  "peoplesection3-1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut blanditiis commodi consequuntur debitis delectus dicta dolore fugit illo iure, nemo odio pariatur qui sapiente, sed voluptates. Eaque",
+  "gallery":  "Gallery",
+  "gallery1":  "video 1",
+  "gallery2":  "video 2",
+  "gallery3":  "video 3",
+  "gallery4":  "video 4",
+  "gallery5":  "video 5",
+  "gallery6":  "video 6"
 }

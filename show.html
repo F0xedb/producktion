@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Futurenetbelgium distributors of futurenet">
+    <meta name="author" content="Tom Meyers">
+
+    <title>Futurenetbelgium</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="../dist/css/flags.css" rel="stylesheet">
+
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="background-color: #0a3c78!important;">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="img/futurenetlogo.svg" alt="futurenet" style="width:100px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <button class="btn btn-outline-info my-2 my-sm-0" type="submit" trans="mute" id="mute" onclick="mute()"></button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" trans="home"></a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Language
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#" onclick="loadlang('en')">English</a>
+              <a class="dropdown-item" href="#" onclick="loadlang('nl')">Nederlands</a>
+              <a class="dropdown-item" href="#" onclick="loadlang('fr')">Francais</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="vid">
+      <video autoplay loop muted id="myVideo">
+        <source src="video/main.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <script>
+          setTimeout(function() {
+              var isChrome = !!window.chrome && !!window.chrome.webstore;
+              if (!isChrome) {
+                  mute();
+                  mute();
+              }else{
+                  mute();
+                  setTimeout(function(){showMute("unmute");bIsMuted=true;},500);
+              }
+          },100);
+      </script>
+    </div>
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text overlay" style="padding-bottom: 50px;padding-top: 50px;margin-bottom: 25vh;">
+          <div class="intro-lead-in" trans="title"></div>
+          <div class="intro-heading text-uppercase" trans="subtitle"></div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#" trans="button" onclick="MainbtnClick()"></a>
+        </div>
+      </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/pdf/p1-1.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-3.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-4.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-5.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-6.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-7.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-8.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-9.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/pdf/p1-10.png" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+    <!-- Gallery-->
+    <div class="container-fluid pb-video-container">
+      <div class="col-md-10 offset-md-1">
+        <h3 class="section-heading text-uppercase" trans="gallery">Gallery</h3>
+        <div class="row pb-row">
+          <div class="col-sm pb-video">
+            <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/o_CqqkGd_HQ?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <label class="form-control label-warning text-xs-center" trans="gallery1"></label>
+          </div>
+          <div class="col-sm pb-video">
+            <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/KlDbDbwdeeM?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <label class="form-control label-warning text-xs-center" trans="gallery2"></label>
+          </div>
+          <div class="col-sm pb-video">
+            <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/MWPQ_LSb9H4?ecver=" frameborder="0" allowfullscreen></iframe>
+            <label class="form-control label-warning text-xs-center" trans="gallery3"></label>
+          </div>
+        </div>
+        <div class="row pb-row">
+          <div class="col-sm pb-video">
+            <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/uI3cDAv2HLY?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <label class="form-control label-warning text-xs-center" trans="gallery4"></label>
+          </div>
+          <div class="col-sm pb-video">
+            <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/HsZk_Nl0P7Y?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <label class="form-control label-warning text-xs-center" trans="gallery5"></label>
+          </div>
+          <div class="col-sm pb-video">
+            <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/L743fGWew5M?ecver=" frameborder="0" allowfullscreen></iframe>
+            <label class="form-control label-warning text-xs-center" trans="gallery6"></label>
+          </div>
+        </div>
+        <!--<div class="row pb-row">
+          <div class="col-sm pb-video">
+            <img style="width: 100%; height: 230px;" src="img/portfolio/1Full.jpg" alt="test">
+            <label class="form-control label-warning text-xs-center">F.O. and Peeva - Lichnata</label>
+          </div>
+          <div class="col-sm pb-video">
+            <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/QpbQ4I3Eidg?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <label class="form-control label-warning text-xs-center">Machine Gun - Bad Things</label>
+          </div>
+          <div class="col-sm pb-video">
+            <img style="width: 100%; height: 230px;" src="img/portfolio/2full.jpg" alt="test">
+            <label class="form-control label-warning text-xs-center">INNA - Say it with your body</label>
+          </div>-->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="flex-containercentervert">
+      <div class="flex-containerhor upperpadding">
+        <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a href="https://twitter.com/FuturenetB">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/groups/367332583794122/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fa fa-wifi"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="center">
+        <p class="center" trans="footer"></p>
+      </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <script src="js/agency.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="general.js"></script>
+    <script src="js/localization.js"></script>
+    <script src="js/get.js"></script>
+
+    <script src="../dist/js/jquery.flagstrap.js"></script>
+
+    <script>
+        $('#basic').flagStrap();
+
+        $('#origin').flagStrap({
+            placeholder: {
+                value: "",
+                text: "Country of origin"
+            }
+        });
+
+        $('#options').flagStrap({
+            countries: {
+                "AU": "Australia",
+                "GB": "United Kingdom",
+                "US": "United States"
+            },
+            buttonSize: "btn-sm",
+            buttonType: "btn-info",
+            labelMargin: "10px",
+            scrollable: false,
+            scrollableHeight: "350px"
+        });
+
+        $('#advanced').flagStrap({
+            buttonSize: "btn-lg",
+            buttonType: "btn-primary",
+            labelMargin: "20px",
+            scrollable: false,
+            scrollableHeight: "350px",
+            onSelect: function (value, element) {
+                alert(value);
+                console.log(element);
+            }
+        });
+
+    </script>
+
+
+  </body>
+
+</html>

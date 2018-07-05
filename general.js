@@ -1,6 +1,6 @@
 var data = {
     "attribute": "trans",
-    "delta": 200,
+    "delta": 400,
     "default": "en.json"
 };
 

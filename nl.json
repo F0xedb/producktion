@@ -7,6 +7,7 @@
   "home": "home",
   "about": "about",
   "contact": "contact",
+  "gallerylink": "gallery",
   "button": "Versterk ons team!",
   "heading": "Futurenet België",
   "promotion": "Met ons \"Charity-program\" sponsoren wij een goed doel naar uw keuze",
@@ -17,7 +18,7 @@
   "port2-1": "geef een tweede kans",
   "port3": "Oscare",
   "port3-1": "Nazorg en behandeling brandwondpatiënten",
-  "verdienste": "ONZE VERDIENSMODELLEN",
+  "verdienste": "ONZE DRIE VERDIENMODELLEN",
   "quote": "Successful people make money. It’s not that people who make money become successful, but that successful people attract money. They bring success to what they do.",
   "section1h1": "ADVERTENTIEPLATFORM",
   "section1h2": "MATRIX",
@@ -83,6 +84,12 @@
   "peoplesection1h2": "Welkomstbonus",
   "peoplesection2-1": "Als u start in het advertentieplatform met een minimum van 4 AdPacks ($50-packs) krijgt u van ons een eerste matrixpositie! ($10-matrix)",
   "peoplesection1h3": "Extra prijzen te winnen",
-  "peoplesection3-1": "Maandelijks zullen onder de members prijzen uitgedeeld worden, iedereen maakt evenveel kans. Deze prijzen bestaan uit codes waar u ad-packs mee kan kopen. Zo kan je business wel heel snel gaan!"
-
+  "peoplesection3-1": "Maandelijks zullen onder de members prijzen uitgedeeld worden, iedereen maakt evenveel kans. Deze prijzen bestaan uit codes waar u ad-packs mee kan kopen. Zo kan je business wel heel snel gaan!",
+  "gallery":  "Gallery",
+  "gallery1":  "video 1",
+  "gallery2":  "video 2",
+  "gallery3":  "video 3",
+  "gallery4":  "video 4",
+  "gallery5":  "video 5",
+  "gallery6":  "video 6"
 }

@@ -3,9 +3,6 @@ var test = navigator.language.split("-")[0];
 var content = "";
 
 
-
-
-
 function init() {
     loadJSON(function(response) {
             // Parse JSON string into object
