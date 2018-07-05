@@ -25,6 +25,7 @@ function travelLoc(location){
 function loadlang(lang){
     test = lang;
     init();
+
 }
 
 var bIsMuted = false;
@@ -45,5 +46,6 @@ function showMute(string) {
 }
 
 function travelpdf(){
-    window.location = "adpro_"+ test+".pdf";
+    var pdf = document.getElementById("pdf");
+    pdf.href= "adpro_"+ test+".pdf";
 }

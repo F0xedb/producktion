@@ -44,6 +44,7 @@ function setHTMLLang(){
         var look = langAttrib[i].getAttribute(data.attribute);
         langAttrib[i].innerHTML = Lookup(look)
     }
+    travelpdf();
 }
 
 function getAllTags(){
