@@ -45,5 +45,5 @@ function showMute(string) {
 }
 
 function travelpdf(){
-    window.location = "adpro_"+ test;
+    window.location = "adpro_"+ test+".pdf";
 }
