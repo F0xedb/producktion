@@ -73,6 +73,15 @@
         <source src="video/main.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
       </video>
+      <script>
+          setTimeout(function() {
+              var isChrome = !!window.chrome && !!window.chrome.webstore;
+              if (!isChrome) {
+                  mute();
+                  mute();
+              }
+          },100);
+      </script>
     </div>
     <header class="masthead">
       <div class="container">
