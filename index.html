@@ -79,6 +79,9 @@
               if (!isChrome) {
                   mute();
                   mute();
+              }else{
+                  mute();
+                  setTimeout(function(){showMute("unmute");bIsMuted=true;},500);
               }
           },100);
       </script>
